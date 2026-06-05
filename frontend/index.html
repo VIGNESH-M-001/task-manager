@@ -1,30 +1,24 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<title>Task Manager</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="app">
+      <h1>Task Manager</h1>
 
-        <h1>Task Manager</h1>
+      <div class="input-section">
+        <input id="taskInput" type="text" placeholder="Enter a task" />
 
-            <div class="input-section">
+        <button type="button" id="addBtn" class="btn">Add</button>
+      </div>
 
-            <input id="taskInput" type="text" placeholder="Enter a task">
-
-            <button type="button" id="addBtn" class="btn">Add</button>
-
-            </div>
-
-        <ul  id="taskContainer"></ul>
-
+      <ul id="taskContainer"></ul>
     </div>
 
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
