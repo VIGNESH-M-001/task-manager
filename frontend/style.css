@@ -1,0 +1,89 @@
+
+ *{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:Arial;
+}
+
+body{
+background:#f3f4f6;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.app{
+background:white;
+padding:30px;
+width:400px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+.input-section{
+display:flex;
+gap:10px;
+}
+
+input{
+flex:1;
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.btn{
+padding:10px 15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.deletebtn{
+padding:5px;
+cursor:pointer;
+color: white;
+background-color: rgb(247, 17, 17);
+border: none;
+width: 60px;
+border-radius: 6px;
+font-size: 13px;
+
+}
+
+
+
+ul{
+list-style:none;
+margin-top:20px;
+}
+
+li{
+background:#c2d4db;
+padding:10px;
+margin-bottom:10px;
+border-radius:5px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.completed{
+text-decoration:line-through;
+color:grey;
+}
